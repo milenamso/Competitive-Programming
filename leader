@@ -1,1 +1,20 @@
+//Beecrowd 1044
 
+#include<bits/stdc++.h> 
+
+using namespace std;
+
+int main(){
+
+    int A, B;
+    
+    cin >> A >> B;
+
+    if(B%A==0){
+        cout << "Sao multiplos" << endl;
+    }else{
+        cout << "Nao sao multiplos" << endl;
+    }
+
+    return 0;
+}
